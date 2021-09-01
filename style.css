@@ -1,0 +1,157 @@
+.hero {
+  width: 100%;
+  height: 100vh;
+  background: url(priest.jpg);
+  background-size: 60%;
+  background-position: center;
+  position: relative;
+  overflow: hidden;
+  background-repeat: none;
+}
+.navbar {
+  text-decoration: none;
+  font-size: 18px;
+  background: none;
+  width: 85%;
+  height: 10%;
+  padding-top: 2px;
+  padding-right: 0%;
+  padding-left: 5%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.b1,
+.b2,
+.b3 {
+  border-radius: 5em;
+  font-size: 18px;
+  background: lightseagreen;
+  width: 200px;
+}
+
+.meg,
+.me,
+.meq {
+  font-size: 20pt;
+  color: white;
+  text-decoration: none;
+}
+
+.meg:hover {
+  font-size: 15pt;
+  color: white;
+  text-decoration: none;
+  font-weight: bolder;
+}
+.meq:hover {
+  font-size: 15pt;
+  color: white;
+  text-decoration: none;
+  font-weight: bolder;
+}
+
+.me:hover {
+  font-size: 15pt;
+  color: white;
+  text-decoration: none;
+  font-weight: bolder;
+}
+
+.menu {
+  text-align: center;
+  color: green;
+}
+.intro {
+  color: white;
+  padding-left: 10%;
+}
+.tab {
+  margin-left: 50%;
+  margin-top: 5%;
+}
+.tabi {
+  margin-left: 0;
+  margin-top: 10%;
+  position: fixed;
+}
+
+.table {
+  font-size: 13pt;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+}
+
+.butn {
+  width: 120pt;
+  background: none;
+  text-align: center;
+  border-radius: 5em;
+  border-color: rgb(33, 94, 207);
+}
+
+.butn:hover {
+  cursor: pointer;
+  background: goldenrod;
+  font-weight: bold;
+}
+.momina {
+  display: flex;
+  background: url(monk.jpg);
+  background-size: cover;
+}
+.container {
+  display: flex;
+  background: url(moon.jpg);
+  background-size: cover;
+}
+misgana {
+  display: flex;
+  background: url(tsom.jpg);
+  background-size: contain;
+  background-repeat: none;
+}
+.tibeb {
+  display: flex;
+  background: url(heaven.jpg);
+  background-size: cover;
+}
+.niket {
+  display: flex;
+}
+.gift {
+  display: flex;
+}
+
+.box3 {
+  background: goldenrod;
+  flex: 1;
+  order: 1;
+  text-align: left;
+  flex-basis: 30%;
+  color: #ffffff80;
+}
+.box4 {
+  background: dodgerblue;
+  flex: 1;
+  order: 2;
+  text-align: center;
+  flex-basis: 70%;
+  color: #ffffff80;
+}
+.box1 {
+  flex: 1;
+  order: 1;
+  text-align: left;
+  flex-basis: 30%;
+  color: #ffffff80;
+}
+.box2 {
+  flex: 1;
+  order: 2;
+  text-align: center;
+  flex-basis: 70%;
+  color: #ffffff80;
+}
