@@ -84,6 +84,10 @@
   text-decoration: none;
 }
 
+.header_mob {
+  text-align: center;
+  color: goldenrod;
+}
 .butn {
   width: 120pt;
   background: none;
@@ -118,11 +122,28 @@ misgana {
   background: url(heaven.jpg);
   background-size: cover;
 }
+
+.momina_body {
+  background: url(green.jpg);
+}
 .niket {
   display: flex;
 }
+.mar {
+  margin-top: 50px;
+  width: 350px;
+  height: 500px;
+}
+.seali {
+  color: black;
+  font-weight: bold;
+}
 .gift {
   display: flex;
+}
+
+.gift_body {
+  background: url(green.jpg);
 }
 
 .box3 {
@@ -154,4 +175,231 @@ misgana {
   text-align: center;
   flex-basis: 70%;
   color: #ffffff80;
+}
+.yared_body {
+  background: url(tsom.jpg);
+  width: 100vw;
+  height: 3500px;
+  background-size: cover;
+  position: relative;
+}
+.adam_body {
+  background: url(tsom.jpg);
+  width: 1500px;
+  height: 2500px;
+  background-size: cover;
+  position: relative;
+}
+.tibeb_body {
+  background: url(green.jpg);
+}
+.kurat_body {
+  background: url(moon.jpg);
+}
+.niket_body {
+  background: url(hel.jpg);
+  position: relative;
+  height: 1500px;
+  width: 100vw;
+  background-size: cover;
+}
+.jesus {
+  width: 25vw;
+}
+.note {
+  color: #000066;
+  font-weight: bold;
+  font-size: 20px;
+  margin-top: -5px;
+}
+.head_niket {
+  margin-top: 0;
+  padding-right: 50%;
+  padding-top: 0;
+  color: #ff0000;
+  font-size: 18pt;
+}
+
+.font_niket {
+  padding-top: -5pt;
+  padding-right: 50%;
+  font-size: 14pt;
+  color: #ffffffd2;
+  font-weight: lighter;
+}
+.font_niket_b {
+  padding-top: -5pt;
+  padding-right: 50%;
+  font-size: 14pt;
+  color: black;
+  font-weight: lighter;
+}
+
+@media only screen and (max-width: 900px) {
+  .hero {
+    width: 100%;
+    height: 100vh;
+    background: url(priest.jpg);
+    background-repeat: none;
+    background-size: 90%;
+  }
+  .menu {
+    text-align: center;
+    color: green;
+    font-size: 13px;
+    margin: 20px;
+  }
+  .navbar {
+    display: none;
+  }
+  .intro {
+    padding-top: 50px;
+    text-align: center;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+  .tab {
+    text-align: center;
+    margin-left: 15%;
+    padding-top: 100px;
+  }
+  .tabi {
+    position: relative;
+    margin-left: 15%;
+  }
+  .header_mob {
+    font-size: 20px;
+    padding-left: 0;
+    margin-left: 0;
+    color: goldenrod;
+    text-align: center;
+  }
+  .yared_body {
+    background: url(tsom.jpg);
+    width: 100vw;
+    height: 3500px;
+    background-size: cover;
+    position: relative;
+  }
+
+  .adam_body {
+    background: url(tsom.jpg);
+    width: auto;
+    height: 2200px;
+    background-size: cover;
+    position: relative;
+  }
+  .misgana {
+    display: unset;
+  }
+  .box2 {
+    margin-top: 25%;
+  }
+  .niket {
+    display: unset;
+  }
+
+  .niket_body {
+    background: url(tsom.jpg);
+    width: 100vw;
+    height: 3800px;
+    background-size: cover;
+    position: relative;
+  }
+
+  .gift {
+    display: unset;
+  }
+  .gift_body {
+    background: url(tsom.jpg);
+    width: auto;
+    height: 2100px;
+    background-size: cover;
+    position: relative;
+  }
+  .box1,
+  .box2 {
+    background: unset;
+  }
+
+  .box3,
+  .box4 {
+    background: unset;
+  }
+  .jesus {
+    margin-top: 10px;
+    width: 65vw;
+    height: auto;
+  }
+  .images {
+    margin-top: 50px;
+    width: 100vw;
+    height: auto;
+  }
+  .notes {
+    color: #000066;
+    font-weight: bold;
+    font-size: 20px;
+  }
+  .image {
+    margin-top: 50px;
+    width: 100vw;
+    height: 350px;
+  }
+  .note {
+    color: #000066;
+    font-weight: bold;
+    font-size: 20px;
+    margin-top: -5px;
+  }
+
+  .head_niket {
+    color: #ff0000;
+    font-size: 18pt;
+  }
+
+  .font_niket {
+    font-size: 14pt;
+    color: black;
+    font-weight: bold;
+  }
+  .font_niket_b {
+    font-size: 14pt;
+    color: black;
+    font-weight: bold;
+  }
+
+  .container {
+    display: unset;
+  }
+  .kurat_body {
+    background: url(moon.jpg);
+    width: auto;
+    height: auto;
+    background-size: cover;
+    position: relative;
+  }
+  .nike {
+    display: none;
+  }
+  .momina {
+    display: unset;
+  }
+  .tibeb {
+    display: unset;
+  }
+
+  .tibeb_body {
+    background: url(heaven.jpg);
+    width: 100vw;
+    height: 1200px;
+    background-size: cover;
+  }
+  .momina_body {
+    background: url(tsom.jpg);
+    width: 100vw;
+    height: 1700px;
+    background-size: cover;
+    position: relative;
+  }
 }
